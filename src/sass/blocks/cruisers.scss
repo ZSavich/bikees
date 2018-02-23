@@ -1,0 +1,27 @@
+.cruisers {
+	background-image: url("../img/bg-2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.cruisers__wrapper {
+	width: 100%;
+	height: 100%;
+
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	background-image: linear-gradient(rgba(126, 49, 192, 0.7), rgba(225, 146, 255, 0.7));
+}
+
+.cruisers__logo {
+	width: 200px;
+}
+
+.cruisers__style {
+	font-size: 35px;
+	margin-bottom: 70px;
+}

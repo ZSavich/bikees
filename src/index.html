@@ -4,17 +4,17 @@
 	<meta charset="UTF-8">
 	<title>Bikees Main Page</title>
 	<link rel="stylesheet" href="css/style.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 </head>
 <body>
 	<header class="page-header">
+		<h1 class="visual-hidden">Bikess</h1>
 		<div class="container">
 			<div class="page-header__logo">
-				<h1>
-				  <a href="#" class="logo">Bikees<span class="logo__bit-basta">.</span></a>
-			  </h1>
+			  <a href="#" class="logo">Bikees<span class="logo__bit-basta">.</span></a>
 			</div>
 			<div class="page-header__search">
-				<i class="page-header__icon-search">
+				<i class="page-header__icon-search"></i>
 				<input type="search" name="search" id="search" placeholder="Поиск">
 			</div>
 		</div>
@@ -22,20 +22,24 @@
 	<main>
 		<div class="index-blocks">
 			<section class="fixies index-blocks__item">
-				<h2 class="fixies__title">Fixies</h2>
-				<span class="fixies__style">Hisper style</span>
-				<a href="#" class="btn btn--fixies">Choisir son modele</a>
+				<div class="fixies__wrapper">
+					<img class="fixies__logo" src="../img/fixies-logo.png" alt="Fixies">
+					<span class="fixies__style">Hisper style</span>
+					<a href="#" class="btn btn--fixies">Choisir son modele</a>
+			  </div>
 			</section>
 			<section class="cruisers index-blocks__item">
-				<h2 class="cruisers__title">Cruisers</h2>
-				<span class="cruisers__style">Hippie style</span>
-				<a href="#" class="btn btn--cruisers">Choisir son modele</a>
+				<div class="cruisers__wrapper">
+					<img class="cruisers__logo" src="../img/cruisler-logo.png" alt="Cruisers">
+					<span class="cruisers__style">Hippie style</span>
+					<a href="#" class="btn btn--cruisers">Choisir son modele</a>
+				</div>
 			</section>
 		</div>
 	</main>
-	<footer class="page-footer">
+	<footer class="page-footer container">
 		<div class="page-footer__left">
-			<a href="#" class="logo">
+			<a href="#" class="logo logo--footer">
 				Bikees<span class="logo__bit-basta">.</span>
 			</a>
 			<p class="page-footer__paiement">PAIEMENT 100% SECURISÉ - DONNÉES CRIPTÉES ET CHIFRÉES.</p>
